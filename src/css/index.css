@@ -485,3 +485,38 @@ footer {
     transform: translateY(-10px);
     box-shadow:0 20px 40px rgba(0,0,0,.12);
 }
+.profile-photo {
+    transition: 0.4s ease;
+}
+
+.profile-photo:hover {
+    transform: scale(1.05) rotate(2deg);
+}
+
+.project-card {
+    transition: 0.35s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(47, 42, 54, 0.16);
+}
+
+.projects-grid {
+    margin-top: 35px;
+}
+
+footer h3 {
+    color: #ffc2d1;
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+footer p {
+    margin-bottom: 8px;
+}
+
+footer i {
+    color: #ff8fab;
+    margin-right: 8px;
+}
